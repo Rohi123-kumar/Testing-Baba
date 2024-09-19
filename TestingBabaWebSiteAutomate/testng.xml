@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Testing Baba">
+  <test name="Login Page test" enabled ="false">
+  <parameter name="browser" value="edge"></parameter>
+    <classes>
+      <class name="TestPakage.LoginTestPage"/>
+    </classes>
+  </test> 
+  <!-- Test -->
+  
+  <test name="Text Page test" enabled ="false">
+  <parameter name="browser" value="edge"></parameter>
+    <classes>
+      <class name="TestPakage.TextBoxPageTest"/>
+    </classes>
+  </test> 
+  <!-- Test -->
+  
+  <test name="Check Box Page test" enabled ="false">
+  <parameter name="browser" value="edge"></parameter>
+    <classes>
+      <class name="TestPakage.CheckBoxPageTest"/>
+    </classes>
+  </test> 
+  <!-- Test -->
+  
+  <test name="Redio Button Page test" enabled ="false">
+  <parameter name="browser" value="edge"></parameter>
+    <classes>
+      <class name="TestPakage.RadioButtonPageTest"/>
+    </classes>
+  </test> 
+  <!-- Test -->
+  
+  <test name="WebTable Page test" enabled ="false">
+  <parameter name="browser" value="edge"></parameter>
+    <classes>
+      <class name="TestPakage.WebTablePageTest"/>
+    </classes>
+  </test> 
+  <!-- Test -->
+  
+  <test name="Button Page test" enabled ="false">
+  <parameter name="browser" value="edge"></parameter>
+    <classes>
+      <class name="TestPakage.ButtonPageTest"/>
+    </classes>
+  </test> 
+  <!-- Test -->
+  
+  <test name="Link Page test" enabled ="false">
+  <parameter name="browser" value="edge"></parameter>
+    <classes>
+      <class name="TestPakage.LinkPageTest"/>
+    </classes>
+  </test> 
+  <!-- Test -->
+  
+  <test name="Frame Page test" enabled ="false">
+  <parameter name="browser" value="edge"></parameter>
+    <classes>
+      <class name="TestPakage.FramePageTest"/>
+    </classes>
+  </test> 
+  <!-- Test -->
+  
+  <test name="Nasted Frame Page test" enabled ="false">
+  <parameter name="browser" value="edge"></parameter>
+    <classes>
+      <class name="TestPakage.NestedFramePageTest"/>
+    </classes>
+  </test> 
+  <!-- Test -->
+  
+  <test name="Browser Windows Page test" enabled ="false">
+  <parameter name="browser" value="edge"></parameter>
+    <classes>
+      <class name="TestPakage.BrowserWindowsPageTest"/>
+    </classes>
+  </test> 
+  <!-- Test -->
+  
+  
+  <test name="Alert Page test" enabled ="false">
+  <parameter name="browser" value="edge"></parameter>
+    <classes>
+      <class name="TestPakage.AlertPageTest"/>
+    </classes>
+  </test> 
+  <!-- Test -->
+  
+  <test name="ToolTips Page test" enabled ="false">
+  <parameter name="browser" value="edge"></parameter>
+    <classes>
+      <class name="TestPakage.ToolTipsPageTest"/>
+    </classes>
+  </test> 
+  <!-- Test -->
+  
+  <test name="Select Menu Page test" enabled ="false">
+  <parameter name="browser" value="edge"></parameter>
+    <classes>
+      <class name="TestPakage.SelectMenuPageTest"/>
+    </classes>
+  </test> 
+  <!-- Test -->
+  <test name="Upload and Download Page test" enabled ="true">
+  <parameter name="browser" value="edge"></parameter>
+    <classes>
+      <class name="TestPakage.UploadAndDownloadPageTest"/>
+    </classes>
+  </test> 
+  <!-- Test -->
+</suite> <!-- Suite -->

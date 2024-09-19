@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-17T19:39:09 IST" name="Testing Baba" finished-at="2024-09-17T19:39:28 IST" duration-ms="18773">
+    <groups>
+    </groups>
+    <test started-at="2024-09-17T19:39:09 IST" name="Upload and Download Page test" finished-at="2024-09-17T19:39:28 IST" duration-ms="18773">
+      <class name="TestPakage.UploadAndDownloadPageTest">
+        <test-method is-config="true" signature="Launchurl(java.lang.String)[pri:0, instance:TestPakage.UploadAndDownloadPageTest@2e005c4b]" started-at="2024-09-17T19:39:09 IST" name="Launchurl" finished-at="2024-09-17T19:39:18 IST" duration-ms="8977" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launchurl -->
+        <test-method signature="click_on_close()[pri:1, instance:TestPakage.UploadAndDownloadPageTest@2e005c4b]" started-at="2024-09-17T19:39:18 IST" name="click_on_close" finished-at="2024-09-17T19:39:21 IST" duration-ms="3086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_on_close -->
+        <test-method is-config="true" signature="getResultAnalysis(org.testng.ITestResult)[pri:0, instance:TestPakage.UploadAndDownloadPageTest@2e005c4b]" started-at="2024-09-17T19:39:21 IST" name="getResultAnalysis" finished-at="2024-09-17T19:39:22 IST" duration-ms="363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=click_on_close status=SUCCESS method=UploadAndDownloadPageTest.click_on_close()[pri:1, instance:TestPakage.UploadAndDownloadPageTest@2e005c4b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAnalysis -->
+        <test-method signature="click_on_practice()[pri:2, instance:TestPakage.UploadAndDownloadPageTest@2e005c4b]" started-at="2024-09-17T19:39:22 IST" name="click_on_practice" finished-at="2024-09-17T19:39:25 IST" duration-ms="3804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_on_practice -->
+        <test-method is-config="true" signature="getResultAnalysis(org.testng.ITestResult)[pri:0, instance:TestPakage.UploadAndDownloadPageTest@2e005c4b]" started-at="2024-09-17T19:39:25 IST" name="getResultAnalysis" finished-at="2024-09-17T19:39:26 IST" duration-ms="172" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=click_on_practice status=SUCCESS method=UploadAndDownloadPageTest.click_on_practice()[pri:2, instance:TestPakage.UploadAndDownloadPageTest@2e005c4b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAnalysis -->
+        <test-method signature="click_on_element()[pri:3, instance:TestPakage.UploadAndDownloadPageTest@2e005c4b]" started-at="2024-09-17T19:39:26 IST" name="click_on_element" finished-at="2024-09-17T19:39:26 IST" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_on_element -->
+        <test-method is-config="true" signature="getResultAnalysis(org.testng.ITestResult)[pri:0, instance:TestPakage.UploadAndDownloadPageTest@2e005c4b]" started-at="2024-09-17T19:39:26 IST" name="getResultAnalysis" finished-at="2024-09-17T19:39:26 IST" duration-ms="181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=click_on_element status=SUCCESS method=UploadAndDownloadPageTest.click_on_element()[pri:3, instance:TestPakage.UploadAndDownloadPageTest@2e005c4b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAnalysis -->
+        <test-method signature="Click_On_Upload_And_Download()[pri:4, instance:TestPakage.UploadAndDownloadPageTest@2e005c4b]" started-at="2024-09-17T19:39:26 IST" name="Click_On_Upload_And_Download" finished-at="2024-09-17T19:39:26 IST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_On_Upload_And_Download -->
+        <test-method is-config="true" signature="getResultAnalysis(org.testng.ITestResult)[pri:0, instance:TestPakage.UploadAndDownloadPageTest@2e005c4b]" started-at="2024-09-17T19:39:26 IST" name="getResultAnalysis" finished-at="2024-09-17T19:39:26 IST" duration-ms="176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Click_On_Upload_And_Download status=SUCCESS method=UploadAndDownloadPageTest.Click_On_Upload_And_Download()[pri:4, instance:TestPakage.UploadAndDownloadPageTest@2e005c4b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAnalysis -->
+        <test-method signature="Click_On_Choose_File()[pri:5, instance:TestPakage.UploadAndDownloadPageTest@2e005c4b]" started-at="2024-09-17T19:39:26 IST" name="Click_On_Choose_File" finished-at="2024-09-17T19:39:28 IST" duration-ms="1653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_On_Choose_File -->
+        <test-method is-config="true" signature="getResultAnalysis(org.testng.ITestResult)[pri:0, instance:TestPakage.UploadAndDownloadPageTest@2e005c4b]" started-at="2024-09-17T19:39:28 IST" name="getResultAnalysis" finished-at="2024-09-17T19:39:28 IST" duration-ms="183" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Click_On_Choose_File status=SUCCESS method=UploadAndDownloadPageTest.Click_On_Choose_File()[pri:5, instance:TestPakage.UploadAndDownloadPageTest@2e005c4b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAnalysis -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:TestPakage.UploadAndDownloadPageTest@2e005c4b]" started-at="2024-09-17T19:39:28 IST" name="closure" finished-at="2024-09-17T19:39:28 IST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+      </class> <!-- TestPakage.UploadAndDownloadPageTest -->
+    </test> <!-- Upload and Download Page test -->
+  </suite> <!-- Testing Baba -->
+</testng-results>
